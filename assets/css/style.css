@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Prompt", sans-serif;
+}
+
+/* NAVBAR */
+:root {
+    --main-bg-color: #CC0033;
+}
+
+.navbar {
+    background: var(--main-bg-color);
+}
+
+#navbarNav {
+    padding-right: 100px;
+}
+
+#navbarNav a {
+    color: white;
+    font-size: 18px;
+}
+
+
+/* FIN NAVBAR */
