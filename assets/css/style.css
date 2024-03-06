@@ -22,5 +22,26 @@
     font-size: 18px;
 }
 
+#navbarNav a:hover{
+    color: rgb(255, 255, 255, 0.6);
+}
 
 /* FIN NAVBAR */
+
+/* HEADER */
+header .filete {
+    margin-top: 90px;
+    background-image: linear-gradient(90deg,white,rgb(51, 204, 153),white);
+}
+/* FIN HEADER */
+
+@media (max-width: 768px) {
+  
+    .navbar-brand img {
+      width: 250px;
+    }    
+   
+    .line-hide {
+        display:none;
+    }
+}
