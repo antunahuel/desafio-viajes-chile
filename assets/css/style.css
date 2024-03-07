@@ -93,6 +93,10 @@ header .filete2 {
     border-right: #CC0033 1px solid;
 }
 
+.wrapper-destacados {
+    max-width: 1280;;
+}
+
 /* FIN SECCION PRESENTACION */
 
 @media (max-width: 768px) {
