@@ -30,7 +30,7 @@
 
 /* HEADER */
 header .filete {
-    margin-top: 90px;
+    margin-top: 92px;
     background-image: linear-gradient(90deg,white,rgb(51, 204, 153),white);
 }
 
@@ -59,10 +59,6 @@ header .filete2 {
 /* FIN HEADER */
 
 /* SECTION COROUSEL */
-#corousel {
-    max-width: 1280px;
-}
-
 #corousel h2 {
     color: white;
     text-align: center;
@@ -75,8 +71,29 @@ header .filete2 {
     margin-left: -50px;
     margin-right: -50px;
 }
-
 /* FIN SECTION COROUSEL */
+
+/* SECCION PRESENTACION */
+
+#presentacion h3{
+    font-size: 20px;
+    margin: 0;  
+}
+
+.wrap-linea-separacion {
+    padding: 0;
+    margin-top: 90px;
+    max-height: 300px;
+    border-right: 1px solid #D00046;
+}
+
+.wrap-info {
+    padding: 0;
+    margin: 0;
+    max-width: 400px;
+}
+
+/* FIN SECCION PRESENTACION */
 
 @media (max-width: 768px) {
   
@@ -105,6 +122,14 @@ header .filete2 {
     }
  
     .filete2 {
+        display: none;
+    }
+
+    #corousel{
+        display: none;
+    }
+
+    .wrap-linea-separacion {
         display: none;
     }
 }
