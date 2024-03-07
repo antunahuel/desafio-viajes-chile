@@ -9,7 +9,7 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 
 $(function(){ 
 
-  $("#seciones a").on("click", function(event){
+  $("#secciones a").on("click", function(event){
 
     if (this.hash !=="") {
       event.preventDefault();
@@ -17,7 +17,7 @@ $(function(){
       
       $("html,body").animate ({
         scrollTop: $(hash).offset().top
-      }, 800, function() {
+      }, 1000, function() {
         window.location.hash=hash;
       });
     }//fin if

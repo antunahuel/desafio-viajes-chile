@@ -99,6 +99,19 @@ header .filete2 {
 
 /* FIN SECCION PRESENTACION */
 
+/* SECCION DESTACADOS */
+
+.titulo-card {
+    color: #6600FF;
+    font-size: 22px;
+}
+
+.texto-card {
+    color: #333333;
+}
+
+/* SECCION DESTACADOS */
+
 @media (max-width: 768px) {
   
     .navbar-brand img {
