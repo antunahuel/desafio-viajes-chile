@@ -88,8 +88,8 @@ header .filete2 {
 .wrap-linea-separacion {
     padding: 0px;
     max-width: 0;
-    margin-top: 60px;
-    height: 400px;
+    margin-top: 70px;
+    height: 300px;
     border-right: #CC0033 1px solid;
 }
 
@@ -111,6 +111,12 @@ header .filete2 {
 }
 
 /* SECCION DESTACADOS */
+
+/* SECCION CONTACTO */
+#contacto h2 {
+    color: #6600FF;
+}
+/* FIN SECCION CONTACTO */
 
 @media (max-width: 768px) {
   
