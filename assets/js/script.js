@@ -21,14 +21,19 @@ $(function(){
         window.location.hash=hash;
       });
     }//fin if
-  });  
+  });
+  
+  $(".boton").click(function(){
+    alert("Gracias por contactarnos");
+  })
+
+  $("#destacados .title-card").click(function(){
+    $(this).toggleClass("destacado");
+    $(this).next(".card-text").toggle("slow");
 });
 
-  // var seccion=$("#presentacion a[0]");
-  // console.log(seccion);
+});
 
-  
-  // $("#secciones a").click(function(){
-  //   $(this);
-  //   alert("hola");
-  // });
+
+
+ 

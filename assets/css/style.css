@@ -110,6 +110,10 @@ header .filete2 {
     color: #333333;
 }
 
+.destacado {
+    color: #CC0033;
+}
+
 /* SECCION DESTACADOS */
 
 /* SECCION CONTACTO */
@@ -123,6 +127,32 @@ header .filete2 {
 }
 
 /* FIN SECCION CONTACTO */
+
+/* FOOTER */
+footer {
+    background-color: #6600FF;
+    height: 200px;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+.color-footer{
+    background-color: #6600FF;
+}
+
+footer img{
+    width: 400px;
+}
+
+footer i{
+    font-size: 40px;
+    padding-left: 40px;
+    margin-top: 20px;
+}
+/* FIN FOOTER */
 
 @media (max-width: 768px) {
   
@@ -169,5 +199,20 @@ header .filete2 {
 
     #presentacion {
         display: none;
+    }
+
+    footer {
+        height: 100px;
+    }
+
+    footer img{
+        width: 220px;
+        
+    }
+
+    footer i{
+        font-size: 30px;
+        margin-top: 10px;
+        padding-left: 10px;
     }
 }
